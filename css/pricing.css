@@ -186,20 +186,29 @@ footer{
 
 /* mobile responsiveness */
  @media screen and (min-width: 320px) and (max-width: 480px){
-   .bm{
+   .sect1{
+    margin: 0 auto;
+   }
+    .bm{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
    }
    .fb{
-    width: 80%;
-   }
-   .sect1{
+    width: 70vw;
+    padding-bottom: 100px;
+}
+.sect1{
     object-fit: contain;
-   }
-   .prd{
-    margin: 100px;
+}
+.prd{
+   margin: 0 auto;
     object-fit: contain;
     object-position: fixed;
+    width: 80vw;
+    
+    
    }
    .btn-xtra:hover{
     background-color: blue;
