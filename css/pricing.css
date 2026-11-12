@@ -61,12 +61,17 @@ a{
     flex-direction: row;
     justify-content: space-evenly;
     align-content: center;
+    /* border: 2px solid blue; */
 }
 .fb{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
     border: 1px solid black;
     border-radius: 6px;
     width: 25%;
-    height: 85vh;
+    padding-bottom: 50px;
+    /* height: 85vh; */
     /* text-align: center; */
     margin-bottom: 80px;
 }
@@ -119,7 +124,7 @@ li{
     border: none;
     border-radius: 5px;
     padding: 10px;
-    width: 220px;
+    width: 75%;
     height: 40px;
     margin-left: 30px;
     margin-top: 10px;
@@ -133,7 +138,7 @@ li{
     border: 1px solid rgb(0, 119, 255);
     border-radius: 5px;
     padding: 10px;
-    width: 220px;
+    width: 75%;
     height: 40px;
     margin-left: 30px;
     margin-top: 10px;
@@ -203,7 +208,6 @@ footer{
    }
    .fb{
     width: 70vw;
-    padding-bottom: 100px;
 }
 .sect1{
     object-fit: contain;
