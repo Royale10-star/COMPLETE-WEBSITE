@@ -325,7 +325,7 @@ small {
   .navigation-list {
     display: none;
   }
-
+  
   .btn2 {
     width: 20%;
   }
@@ -354,20 +354,21 @@ small {
     display: block;
     display: flex;
     flex-direction: column-reverse;
+    /* margin: 0  */
+    /* border: 2px solid blue; */
   }
 
   .f-image {
     width: 80vw;
     /* height: 80vh; */
-    margin: 0 auto;
     /* margin-right: 70px; */
-    border: 2px solid blue;
   }
-
-  .g-img {
-    /* width: 50%; */
-    border: 2px solid blue;
+   .sec2,
+  .sec3 {
+    /* border: 2px solid blue; */
+    padding: 100px 0px 100px 0px;
   }
+  
   .f-text p {
     font-size: 23px;
     font-weight: 500;
