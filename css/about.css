@@ -358,13 +358,15 @@ small {
 
   .f-image {
     width: 80vw;
-    height: 80vh;
-    /* margin: 0 auto; */
+    /* height: 80vh; */
+    margin: 0 auto;
     /* margin-right: 70px; */
+    border: 2px solid blue;
   }
 
   .g-img {
-    width: 50%;
+    /* width: 50%; */
+    border: 2px solid blue;
   }
   .f-text p {
     font-size: 23px;
@@ -384,7 +386,6 @@ small {
   }
   
   .d4{
-    /* border: 2px solid blue; */
     
     padding-bottom: 0;
   }
